@@ -1,0 +1,15 @@
+PODS:
+  - PureLayout (3.0.1)
+  - TransitionKit (2.2.1)
+
+DEPENDENCIES:
+  - PureLayout
+  - TransitionKit
+
+SPEC CHECKSUMS:
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+
+PODFILE CHECKSUM: c465b0d32e3b537d10a7a4244ad57b6ea1bfc8f6
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		219917981DFD8F400010CEEB /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 219917991DFD8F400010CEEB /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				2199179E1DFD8F510010CEEB /* MultiPlatform Build */,
+			);
+			dependencies = (
+				2199179D1DFD8F490010CEEB /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		210335CD1E05D7D70035D9D1 /* MZWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 210335CB1E05D7D70035D9D1 /* MZWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210335CE1E05D7D70035D9D1 /* MZWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 210335CC1E05D7D70035D9D1 /* MZWaveformView.m */; };
+		210335D11E05FCDA0035D9D1 /* MZId.h in Headers */ = {isa = PBXBuildFile; fileRef = 210335CF1E05FCDA0035D9D1 /* MZId.h */; };
+		210335D21E05FCDA0035D9D1 /* MZId.m in Sources */ = {isa = PBXBuildFile; fileRef = 210335D01E05FCDA0035D9D1 /* MZId.m */; };
+		210335F11E0ABB610035D9D1 /* MZTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 210335EF1E0ABB610035D9D1 /* MZTimeLabel.h */; };
+		210335F21E0ABB610035D9D1 /* MZTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210335F01E0ABB610035D9D1 /* MZTimeLabel.m */; };
+		210335F51E0ABD900035D9D1 /* NSDictionary+ElapsedTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 210335F31E0ABD900035D9D1 /* NSDictionary+ElapsedTime.h */; };
+		210335F61E0ABD900035D9D1 /* NSDictionary+ElapsedTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 210335F41E0ABD900035D9D1 /* NSDictionary+ElapsedTime.m */; };
+		2119DFEE1E049CBC006536CC /* Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119DFED1E049CBC006536CC /* Interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119DFF21E049CD0006536CC /* MZAudioRecorderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119DFEF1E049CD0006536CC /* MZAudioRecorderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119DFF31E049CD0006536CC /* MZAudioRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119DFF01E049CD0006536CC /* MZAudioRecorderViewController.m */; };
+		2119DFF41E049CD0006536CC /* MZAudioRecorderViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119DFF11E049CD0006536CC /* MZAudioRecorderViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119DFF81E049CE1006536CC /* MZAudioRecorderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119DFF51E049CE1006536CC /* MZAudioRecorderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119DFF91E049CE1006536CC /* MZAudioRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119DFF61E049CE1006536CC /* MZAudioRecorderController.m */; };
+		2119DFFA1E049CE1006536CC /* MZAudioRecorderControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119DFF71E049CE1006536CC /* MZAudioRecorderControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119DFFF1E049CF2006536CC /* MZCircularMeterLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119DFFB1E049CF2006536CC /* MZCircularMeterLayer.h */; };
+		2119E0001E049CF2006536CC /* MZCircularMeterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119DFFC1E049CF2006536CC /* MZCircularMeterLayer.m */; };
+		2119E0011E049CF2006536CC /* MZViewButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119DFFD1E049CF2006536CC /* MZViewButton.h */; };
+		2119E0021E049CF2006536CC /* MZViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119DFFE1E049CF2006536CC /* MZViewButton.m */; };
+		2119E0051E049D04006536CC /* MZAudioRecorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119E0031E049D04006536CC /* MZAudioRecorderView.h */; };
+		2119E0061E049D04006536CC /* MZAudioRecorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119E0041E049D04006536CC /* MZAudioRecorderView.m */; };
+		2119E00D1E049D2C006536CC /* MZPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119E0071E049D2C006536CC /* MZPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119E00E1E049D2C006536CC /* MZPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119E0081E049D2C006536CC /* MZPair.m */; };
+		2119E00F1E049D2C006536CC /* NSArray+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119E0091E049D2C006536CC /* NSArray+Dictionary.h */; };
+		2119E0101E049D2C006536CC /* NSArray+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119E00A1E049D2C006536CC /* NSArray+Dictionary.m */; };
+		2119E0111E049D2C006536CC /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119E00B1E049D2C006536CC /* UIView+Layout.h */; };
+		2119E0121E049D2C006536CC /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119E00C1E049D2C006536CC /* UIView+Layout.m */; };
+		2119E0181E049D3B006536CC /* MZAudioPower.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119E0131E049D3B006536CC /* MZAudioPower.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119E0191E049D3B006536CC /* MZAudioPower.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2119E0141E049D3B006536CC /* MZAudioPower.mm */; };
+		2119E01A1E049D3B006536CC /* MZAudioRecorderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2119E0151E049D3B006536CC /* MZAudioRecorderConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214E11001DFDDABC006F35EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E10FF1DFDDABC006F35EF /* QuartzCore.framework */; };
+		2174EDB71E452632009D6F37 /* SCWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2174EDB11E452632009D6F37 /* SCWaveformView.m */; };
+		2174EDB81E452632009D6F37 /* SCWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2174EDB21E452632009D6F37 /* SCWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2174EDB91E452632009D6F37 /* SCScrollableWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2174EDB31E452632009D6F37 /* SCScrollableWaveformView.h */; };
+		2174EDBA1E452632009D6F37 /* SCScrollableWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2174EDB41E452632009D6F37 /* SCScrollableWaveformView.m */; };
+		2174EDBB1E452632009D6F37 /* SCWaveformCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2174EDB51E452632009D6F37 /* SCWaveformCache.h */; };
+		2174EDBC1E452632009D6F37 /* SCWaveformCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2174EDB61E452632009D6F37 /* SCWaveformCache.m */; };
+		2174EDBF1E452C48009D6F37 /* NSDoubleRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 2174EDBD1E452C48009D6F37 /* NSDoubleRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2174EDC31E452F98009D6F37 /* UIRangeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2174EDC11E452F98009D6F37 /* UIRangeSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2174EDC41E452F98009D6F37 /* UIRangeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2174EDC21E452F98009D6F37 /* UIRangeSelector.m */; };
+		2174EDC71E473331009D6F37 /* AVAsset+Range.h in Headers */ = {isa = PBXBuildFile; fileRef = 2174EDC51E473331009D6F37 /* AVAsset+Range.h */; };
+		2174EDC81E473331009D6F37 /* AVAsset+Range.m in Sources */ = {isa = PBXBuildFile; fileRef = 2174EDC61E473331009D6F37 /* AVAsset+Range.m */; };
+		217693C01E4DE70300AD1768 /* AVAudioObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 217693BE1E4DE70300AD1768 /* AVAudioObject.h */; };
+		217693C11E4DE70300AD1768 /* AVAudioObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 217693BF1E4DE70300AD1768 /* AVAudioObject.m */; };
+		217693C41E4DE82900AD1768 /* AVAsset+NumberOfChannels.h in Headers */ = {isa = PBXBuildFile; fileRef = 217693C21E4DE82900AD1768 /* AVAsset+NumberOfChannels.h */; };
+		217693C51E4DE82900AD1768 /* AVAsset+NumberOfChannels.m in Sources */ = {isa = PBXBuildFile; fileRef = 217693C31E4DE82900AD1768 /* AVAsset+NumberOfChannels.m */; };
+		217693CD1E4E3EF900AD1768 /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217693CB1E4E3EF900AD1768 /* MeterTable.cpp */; };
+		217693CE1E4E3EF900AD1768 /* MeterTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 217693CC1E4E3EF900AD1768 /* MeterTable.h */; };
+		217693D51E4E885C00AD1768 /* MZViewButtonLayers.h in Headers */ = {isa = PBXBuildFile; fileRef = 217693D31E4E885C00AD1768 /* MZViewButtonLayers.h */; };
+		217693D61E4E885C00AD1768 /* MZViewButtonLayers.m in Sources */ = {isa = PBXBuildFile; fileRef = 217693D41E4E885C00AD1768 /* MZViewButtonLayers.m */; };
+		218509E01E4A74A000F178D0 /* MZAudioRecorderController_p.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509DC1E4A74A000F178D0 /* MZAudioRecorderController_p.h */; };
+		218509E11E4A74A000F178D0 /* MZAudioRecorderHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509DD1E4A74A000F178D0 /* MZAudioRecorderHandler.h */; };
+		218509E21E4A74A000F178D0 /* MZAudioRecorderHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 218509DE1E4A74A000F178D0 /* MZAudioRecorderHandler.m */; };
+		218509E31E4A74A000F178D0 /* MZAudioRecorderHandlerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509DF1E4A74A000F178D0 /* MZAudioRecorderHandlerProtocol.h */; };
+		218509EA1E4A75D300F178D0 /* AVURLAsset+Clear.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509E41E4A75D300F178D0 /* AVURLAsset+Clear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		218509EB1E4A75D300F178D0 /* AVURLAsset+Clear.m in Sources */ = {isa = PBXBuildFile; fileRef = 218509E51E4A75D300F178D0 /* AVURLAsset+Clear.m */; };
+		218509EC1E4A75D300F178D0 /* AVURLAsset+Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509E61E4A75D300F178D0 /* AVURLAsset+Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		218509ED1E4A75D300F178D0 /* AVURLAsset+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 218509E71E4A75D300F178D0 /* AVURLAsset+Data.m */; };
+		218509EE1E4A75D300F178D0 /* AVURLAssetTemp.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509E81E4A75D300F178D0 /* AVURLAssetTemp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		218509EF1E4A75D300F178D0 /* AVURLAssetTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 218509E91E4A75D300F178D0 /* AVURLAssetTemp.m */; };
+		218509F41E4A75F000F178D0 /* NSDictionary+AVAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509F01E4A75F000F178D0 /* NSDictionary+AVAudio.h */; };
+		218509F51E4A75F000F178D0 /* NSDictionary+AVAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 218509F11E4A75F000F178D0 /* NSDictionary+AVAudio.m */; };
+		218509F61E4A75F000F178D0 /* NSDictionary+AVFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509F21E4A75F000F178D0 /* NSDictionary+AVFormat.h */; };
+		218509F71E4A75F000F178D0 /* NSDictionary+AVFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 218509F31E4A75F000F178D0 /* NSDictionary+AVFormat.m */; };
+		218509F91E4A762800F178D0 /* MZAudioRecorderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 218509F81E4A762800F178D0 /* MZAudioRecorderConstants.m */; };
+		218509FC1E4A79D200F178D0 /* AVAudioProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509FA1E4A79D200F178D0 /* AVAudioProtocol.h */; };
+		21850A011E4BA1E200F178D0 /* MZControlTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 218509FF1E4BA1E200F178D0 /* MZControlTimer.h */; };
+		21850A021E4BA1E200F178D0 /* MZControlTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21850A001E4BA1E200F178D0 /* MZControlTimer.m */; };
+		21850A051E4BA20800F178D0 /* MZControlTimerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 21850A031E4BA20800F178D0 /* MZControlTimerProtocol.h */; };
+		219917841DFD8B950010CEEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219917831DFD8B950010CEEB /* UIKit.framework */; };
+		219917861DFD8BA30010CEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219917851DFD8BA30010CEEB /* Foundation.framework */; };
+		219917881DFD8BCE0010CEEB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219917871DFD8BCE0010CEEB /* AVFoundation.framework */; };
+		219EA61E1E63102D00945B87 /* SCWaveformView+Reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 219EA61C1E63102D00945B87 /* SCWaveformView+Reset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		219EA61F1E63102D00945B87 /* SCWaveformView+Reset.m in Sources */ = {isa = PBXBuildFile; fileRef = 219EA61D1E63102D00945B87 /* SCWaveformView+Reset.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2199179C1DFD8F490010CEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213548CC1DFD880900A931FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 213548D31DFD880900A931FC;
+			remoteInfo = MZAudioRecorderViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		213548D21DFD880900A931FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		210335CB1E05D7D70035D9D1 /* MZWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZWaveformView.h; path = View/Common/MZWaveformView.h; sourceTree = "<group>"; };
+		210335CC1E05D7D70035D9D1 /* MZWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZWaveformView.m; path = View/Common/MZWaveformView.m; sourceTree = "<group>"; };
+		210335CF1E05FCDA0035D9D1 /* MZId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZId.h; path = Support/Common/MZId.h; sourceTree = "<group>"; };
+		210335D01E05FCDA0035D9D1 /* MZId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZId.m; path = Support/Common/MZId.m; sourceTree = "<group>"; };
+		210335EF1E0ABB610035D9D1 /* MZTimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZTimeLabel.h; path = View/Common/MZTimeLabel.h; sourceTree = "<group>"; };
+		210335F01E0ABB610035D9D1 /* MZTimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZTimeLabel.m; path = View/Common/MZTimeLabel.m; sourceTree = "<group>"; };
+		210335F31E0ABD900035D9D1 /* NSDictionary+ElapsedTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ElapsedTime.h"; path = "Support/Common/NSDictionary+ElapsedTime.h"; sourceTree = "<group>"; };
+		210335F41E0ABD900035D9D1 /* NSDictionary+ElapsedTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ElapsedTime.m"; path = "Support/Common/NSDictionary+ElapsedTime.m"; sourceTree = "<group>"; };
+		2119DFED1E049CBC006536CC /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface.h; path = MZAudioRecorderViewController/Interface.h; sourceTree = "<group>"; };
+		2119DFEF1E049CD0006536CC /* MZAudioRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderViewController.h; path = MZAudioRecorderViewController/MZAudioRecorderViewController.h; sourceTree = SOURCE_ROOT; };
+		2119DFF01E049CD0006536CC /* MZAudioRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZAudioRecorderViewController.m; path = MZAudioRecorderViewController/MZAudioRecorderViewController.m; sourceTree = SOURCE_ROOT; };
+		2119DFF11E049CD0006536CC /* MZAudioRecorderViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderViewControllerProtocol.h; path = MZAudioRecorderViewController/MZAudioRecorderViewControllerProtocol.h; sourceTree = SOURCE_ROOT; };
+		2119DFF51E049CE1006536CC /* MZAudioRecorderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderController.h; path = MZAudioRecorderViewController/Controller/MZAudioRecorderController.h; sourceTree = SOURCE_ROOT; };
+		2119DFF61E049CE1006536CC /* MZAudioRecorderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZAudioRecorderController.m; path = MZAudioRecorderViewController/Controller/MZAudioRecorderController.m; sourceTree = SOURCE_ROOT; };
+		2119DFF71E049CE1006536CC /* MZAudioRecorderControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderControllerProtocol.h; path = MZAudioRecorderViewController/Controller/MZAudioRecorderControllerProtocol.h; sourceTree = SOURCE_ROOT; };
+		2119DFFB1E049CF2006536CC /* MZCircularMeterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZCircularMeterLayer.h; path = MZAudioRecorderViewController/View/Common/MZCircularMeterLayer.h; sourceTree = SOURCE_ROOT; };
+		2119DFFC1E049CF2006536CC /* MZCircularMeterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZCircularMeterLayer.m; path = MZAudioRecorderViewController/View/Common/MZCircularMeterLayer.m; sourceTree = SOURCE_ROOT; };
+		2119DFFD1E049CF2006536CC /* MZViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZViewButton.h; path = MZAudioRecorderViewController/View/Common/MZViewButton.h; sourceTree = SOURCE_ROOT; };
+		2119DFFE1E049CF2006536CC /* MZViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZViewButton.m; path = MZAudioRecorderViewController/View/Common/MZViewButton.m; sourceTree = SOURCE_ROOT; };
+		2119E0031E049D04006536CC /* MZAudioRecorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderView.h; path = MZAudioRecorderViewController/View/MZAudioRecorderView.h; sourceTree = SOURCE_ROOT; };
+		2119E0041E049D04006536CC /* MZAudioRecorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZAudioRecorderView.m; path = MZAudioRecorderViewController/View/MZAudioRecorderView.m; sourceTree = SOURCE_ROOT; };
+		2119E0071E049D2C006536CC /* MZPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZPair.h; path = MZAudioRecorderViewController/Support/Common/MZPair.h; sourceTree = SOURCE_ROOT; };
+		2119E0081E049D2C006536CC /* MZPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZPair.m; path = MZAudioRecorderViewController/Support/Common/MZPair.m; sourceTree = SOURCE_ROOT; };
+		2119E0091E049D2C006536CC /* NSArray+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Dictionary.h"; path = "MZAudioRecorderViewController/Support/Common/NSArray+Dictionary.h"; sourceTree = SOURCE_ROOT; };
+		2119E00A1E049D2C006536CC /* NSArray+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Dictionary.m"; path = "MZAudioRecorderViewController/Support/Common/NSArray+Dictionary.m"; sourceTree = SOURCE_ROOT; };
+		2119E00B1E049D2C006536CC /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "MZAudioRecorderViewController/Support/Common/UIView+Layout.h"; sourceTree = SOURCE_ROOT; };
+		2119E00C1E049D2C006536CC /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "MZAudioRecorderViewController/Support/Common/UIView+Layout.m"; sourceTree = SOURCE_ROOT; };
+		2119E0131E049D3B006536CC /* MZAudioPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioPower.h; path = MZAudioRecorderViewController/Support/MZAudioPower.h; sourceTree = SOURCE_ROOT; };
+		2119E0141E049D3B006536CC /* MZAudioPower.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MZAudioPower.mm; path = MZAudioRecorderViewController/Support/MZAudioPower.mm; sourceTree = SOURCE_ROOT; };
+		2119E0151E049D3B006536CC /* MZAudioRecorderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderConstants.h; path = MZAudioRecorderViewController/Support/MZAudioRecorderConstants.h; sourceTree = SOURCE_ROOT; };
+		213548D41DFD880900A931FC /* libMZAudioRecorderViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMZAudioRecorderViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E10FF1DFDDABC006F35EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2174EDB11E452632009D6F37 /* SCWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWaveformView.m; path = MZAudioRecorderViewController/Frameworks/SCWaveformView/Sources/SCWaveformView.m; sourceTree = "<group>"; };
+		2174EDB21E452632009D6F37 /* SCWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWaveformView.h; path = MZAudioRecorderViewController/Frameworks/SCWaveformView/Sources/SCWaveformView.h; sourceTree = "<group>"; };
+		2174EDB31E452632009D6F37 /* SCScrollableWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCScrollableWaveformView.h; path = MZAudioRecorderViewController/Frameworks/SCWaveformView/Sources/SCScrollableWaveformView.h; sourceTree = "<group>"; };
+		2174EDB41E452632009D6F37 /* SCScrollableWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCScrollableWaveformView.m; path = MZAudioRecorderViewController/Frameworks/SCWaveformView/Sources/SCScrollableWaveformView.m; sourceTree = "<group>"; };
+		2174EDB51E452632009D6F37 /* SCWaveformCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWaveformCache.h; path = MZAudioRecorderViewController/Frameworks/SCWaveformView/Sources/SCWaveformCache.h; sourceTree = "<group>"; };
+		2174EDB61E452632009D6F37 /* SCWaveformCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWaveformCache.m; path = MZAudioRecorderViewController/Frameworks/SCWaveformView/Sources/SCWaveformCache.m; sourceTree = "<group>"; };
+		2174EDBD1E452C48009D6F37 /* NSDoubleRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDoubleRange.h; path = Support/Common/NSDoubleRange.h; sourceTree = "<group>"; };
+		2174EDC11E452F98009D6F37 /* UIRangeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIRangeSelector.h; path = Support/Common/UIRangeSelector.h; sourceTree = "<group>"; };
+		2174EDC21E452F98009D6F37 /* UIRangeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIRangeSelector.m; path = Support/Common/UIRangeSelector.m; sourceTree = "<group>"; };
+		2174EDC51E473331009D6F37 /* AVAsset+Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVAsset+Range.h"; path = "Support/Common/AVAsset+Range.h"; sourceTree = "<group>"; };
+		2174EDC61E473331009D6F37 /* AVAsset+Range.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AVAsset+Range.m"; path = "Support/Common/AVAsset+Range.m"; sourceTree = "<group>"; };
+		217693BE1E4DE70300AD1768 /* AVAudioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVAudioObject.h; path = Support/AV/AVAudioObject.h; sourceTree = "<group>"; };
+		217693BF1E4DE70300AD1768 /* AVAudioObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVAudioObject.m; path = Support/AV/AVAudioObject.m; sourceTree = "<group>"; };
+		217693C21E4DE82900AD1768 /* AVAsset+NumberOfChannels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVAsset+NumberOfChannels.h"; path = "Support/AV/AVAsset+NumberOfChannels.h"; sourceTree = "<group>"; };
+		217693C31E4DE82900AD1768 /* AVAsset+NumberOfChannels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AVAsset+NumberOfChannels.m"; path = "Support/AV/AVAsset+NumberOfChannels.m"; sourceTree = "<group>"; };
+		217693CB1E4E3EF900AD1768 /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeterTable.cpp; path = Support/MeterTable/MeterTable.cpp; sourceTree = "<group>"; };
+		217693CC1E4E3EF900AD1768 /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeterTable.h; path = Support/MeterTable/MeterTable.h; sourceTree = "<group>"; };
+		217693D31E4E885C00AD1768 /* MZViewButtonLayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZViewButtonLayers.h; path = View/Common/MZViewButtonLayers.h; sourceTree = "<group>"; };
+		217693D41E4E885C00AD1768 /* MZViewButtonLayers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZViewButtonLayers.m; path = View/Common/MZViewButtonLayers.m; sourceTree = "<group>"; };
+		218509DC1E4A74A000F178D0 /* MZAudioRecorderController_p.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderController_p.h; path = Controller/Handler/MZAudioRecorderController_p.h; sourceTree = "<group>"; };
+		218509DD1E4A74A000F178D0 /* MZAudioRecorderHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderHandler.h; path = Controller/Handler/MZAudioRecorderHandler.h; sourceTree = "<group>"; };
+		218509DE1E4A74A000F178D0 /* MZAudioRecorderHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZAudioRecorderHandler.m; path = Controller/Handler/MZAudioRecorderHandler.m; sourceTree = "<group>"; };
+		218509DF1E4A74A000F178D0 /* MZAudioRecorderHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAudioRecorderHandlerProtocol.h; path = Controller/Handler/MZAudioRecorderHandlerProtocol.h; sourceTree = "<group>"; };
+		218509E41E4A75D300F178D0 /* AVURLAsset+Clear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVURLAsset+Clear.h"; path = "Support/AV/AVURLAsset+Clear.h"; sourceTree = "<group>"; };
+		218509E51E4A75D300F178D0 /* AVURLAsset+Clear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AVURLAsset+Clear.m"; path = "Support/AV/AVURLAsset+Clear.m"; sourceTree = "<group>"; };
+		218509E61E4A75D300F178D0 /* AVURLAsset+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVURLAsset+Data.h"; path = "Support/AV/AVURLAsset+Data.h"; sourceTree = "<group>"; };
+		218509E71E4A75D300F178D0 /* AVURLAsset+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AVURLAsset+Data.m"; path = "Support/AV/AVURLAsset+Data.m"; sourceTree = "<group>"; };
+		218509E81E4A75D300F178D0 /* AVURLAssetTemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVURLAssetTemp.h; path = Support/AV/AVURLAssetTemp.h; sourceTree = "<group>"; };
+		218509E91E4A75D300F178D0 /* AVURLAssetTemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVURLAssetTemp.m; path = Support/AV/AVURLAssetTemp.m; sourceTree = "<group>"; };
+		218509F01E4A75F000F178D0 /* NSDictionary+AVAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AVAudio.h"; path = "Support/AV/NSDictionary+AVAudio.h"; sourceTree = "<group>"; };
+		218509F11E4A75F000F178D0 /* NSDictionary+AVAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AVAudio.m"; path = "Support/AV/NSDictionary+AVAudio.m"; sourceTree = "<group>"; };
+		218509F21E4A75F000F178D0 /* NSDictionary+AVFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AVFormat.h"; path = "Support/AV/NSDictionary+AVFormat.h"; sourceTree = "<group>"; };
+		218509F31E4A75F000F178D0 /* NSDictionary+AVFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AVFormat.m"; path = "Support/AV/NSDictionary+AVFormat.m"; sourceTree = "<group>"; };
+		218509F81E4A762800F178D0 /* MZAudioRecorderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZAudioRecorderConstants.m; path = Support/MZAudioRecorderConstants.m; sourceTree = "<group>"; };
+		218509FA1E4A79D200F178D0 /* AVAudioProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVAudioProtocol.h; path = Support/AV/AVAudioProtocol.h; sourceTree = "<group>"; };
+		218509FF1E4BA1E200F178D0 /* MZControlTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZControlTimer.h; path = MZAudioRecorderViewController/Frameworks/MZControlTimer/MZControlTimer.h; sourceTree = "<group>"; };
+		21850A001E4BA1E200F178D0 /* MZControlTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZControlTimer.m; path = MZAudioRecorderViewController/Frameworks/MZControlTimer/MZControlTimer.m; sourceTree = "<group>"; };
+		21850A031E4BA20800F178D0 /* MZControlTimerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZControlTimerProtocol.h; path = MZAudioRecorderViewController/Frameworks/MZControlTimer/MZControlTimerProtocol.h; sourceTree = "<group>"; };
+		219917831DFD8B950010CEEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		219917851DFD8BA30010CEEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		219917871DFD8BCE0010CEEB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		219EA61C1E63102D00945B87 /* SCWaveformView+Reset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCWaveformView+Reset.h"; path = "Support/Common/SCWaveformView+Reset.h"; sourceTree = "<group>"; };
+		219EA61D1E63102D00945B87 /* SCWaveformView+Reset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCWaveformView+Reset.m"; path = "Support/Common/SCWaveformView+Reset.m"; sourceTree = "<group>"; };
+		4DC5A4D18D9D53C6EE30630F /* Pods-MZAudioRecorderViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZAudioRecorderViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZAudioRecorderViewController/Pods-MZAudioRecorderViewController.release.xcconfig"; sourceTree = "<group>"; };
+		C7CBB3712C53FBCF66F98C94 /* Pods-MZAudioRecorderViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZAudioRecorderViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZAudioRecorderViewController/Pods-MZAudioRecorderViewController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		213548D11DFD880900A931FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E11001DFDDABC006F35EF /* QuartzCore.framework in Frameworks */,
+				219917881DFD8BCE0010CEEB /* AVFoundation.framework in Frameworks */,
+				219917861DFD8BA30010CEEB /* Foundation.framework in Frameworks */,
+				219917841DFD8B950010CEEB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213548CB1DFD880900A931FC = {
+			isa = PBXGroup;
+			children = (
+				2119DFED1E049CBC006536CC /* Interface.h */,
+				213548D61DFD880900A931FC /* MZAudioRecorderViewController */,
+				213548D51DFD880900A931FC /* Products */,
+				283D2842318C9878634B540B /* Pods */,
+				7CCDFDB15C32A10D70E459C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		213548D51DFD880900A931FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213548D41DFD880900A931FC /* libMZAudioRecorderViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213548D61DFD880900A931FC /* MZAudioRecorderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2119DFF11E049CD0006536CC /* MZAudioRecorderViewControllerProtocol.h */,
+				2119DFEF1E049CD0006536CC /* MZAudioRecorderViewController.h */,
+				2119DFF01E049CD0006536CC /* MZAudioRecorderViewController.m */,
+				219917621DFD8AC10010CEEB /* Controller */,
+				219917631DFD8AC70010CEEB /* View */,
+				219917641DFD8ACC0010CEEB /* Support */,
+			);
+			path = MZAudioRecorderViewController;
+			sourceTree = "<group>";
+		};
+		2174EDB01E452625009D6F37 /* SCWaveformView */ = {
+			isa = PBXGroup;
+			children = (
+				2174EDB11E452632009D6F37 /* SCWaveformView.m */,
+				2174EDB21E452632009D6F37 /* SCWaveformView.h */,
+				2174EDB31E452632009D6F37 /* SCScrollableWaveformView.h */,
+				2174EDB41E452632009D6F37 /* SCScrollableWaveformView.m */,
+				2174EDB51E452632009D6F37 /* SCWaveformCache.h */,
+				2174EDB61E452632009D6F37 /* SCWaveformCache.m */,
+			);
+			name = SCWaveformView;
+			sourceTree = "<group>";
+		};
+		217693CA1E4E3ED500AD1768 /* MeterTable */ = {
+			isa = PBXGroup;
+			children = (
+				217693CB1E4E3EF900AD1768 /* MeterTable.cpp */,
+				217693CC1E4E3EF900AD1768 /* MeterTable.h */,
+			);
+			name = MeterTable;
+			sourceTree = "<group>";
+		};
+		218509C71E4A71E300F178D0 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				218509DF1E4A74A000F178D0 /* MZAudioRecorderHandlerProtocol.h */,
+				218509DD1E4A74A000F178D0 /* MZAudioRecorderHandler.h */,
+				218509DE1E4A74A000F178D0 /* MZAudioRecorderHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		218509CD1E4A734000F178D0 /* AV */ = {
+			isa = PBXGroup;
+			children = (
+				218509FA1E4A79D200F178D0 /* AVAudioProtocol.h */,
+				217693BE1E4DE70300AD1768 /* AVAudioObject.h */,
+				217693BF1E4DE70300AD1768 /* AVAudioObject.m */,
+				218509F01E4A75F000F178D0 /* NSDictionary+AVAudio.h */,
+				218509F11E4A75F000F178D0 /* NSDictionary+AVAudio.m */,
+				218509F21E4A75F000F178D0 /* NSDictionary+AVFormat.h */,
+				218509F31E4A75F000F178D0 /* NSDictionary+AVFormat.m */,
+				217693C21E4DE82900AD1768 /* AVAsset+NumberOfChannels.h */,
+				217693C31E4DE82900AD1768 /* AVAsset+NumberOfChannels.m */,
+				218509E41E4A75D300F178D0 /* AVURLAsset+Clear.h */,
+				218509E51E4A75D300F178D0 /* AVURLAsset+Clear.m */,
+				218509E61E4A75D300F178D0 /* AVURLAsset+Data.h */,
+				218509E71E4A75D300F178D0 /* AVURLAsset+Data.m */,
+				218509E81E4A75D300F178D0 /* AVURLAssetTemp.h */,
+				218509E91E4A75D300F178D0 /* AVURLAssetTemp.m */,
+			);
+			name = AV;
+			sourceTree = "<group>";
+		};
+		218509FE1E4BA1B300F178D0 /* MZControlTimer */ = {
+			isa = PBXGroup;
+			children = (
+				21850A031E4BA20800F178D0 /* MZControlTimerProtocol.h */,
+				218509FF1E4BA1E200F178D0 /* MZControlTimer.h */,
+				21850A001E4BA1E200F178D0 /* MZControlTimer.m */,
+			);
+			name = MZControlTimer;
+			sourceTree = "<group>";
+		};
+		219917621DFD8AC10010CEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2119DFF71E049CE1006536CC /* MZAudioRecorderControllerProtocol.h */,
+				218509DC1E4A74A000F178D0 /* MZAudioRecorderController_p.h */,
+				2119DFF51E049CE1006536CC /* MZAudioRecorderController.h */,
+				2119DFF61E049CE1006536CC /* MZAudioRecorderController.m */,
+				218509C71E4A71E300F178D0 /* Handler */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		219917631DFD8AC70010CEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				219917661DFD8ADF0010CEEB /* Common */,
+				2119E0031E049D04006536CC /* MZAudioRecorderView.h */,
+				2119E0041E049D04006536CC /* MZAudioRecorderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		219917641DFD8ACC0010CEEB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				217693CA1E4E3ED500AD1768 /* MeterTable */,
+				219917651DFD8AD30010CEEB /* Common */,
+				218509CD1E4A734000F178D0 /* AV */,
+				2119E0151E049D3B006536CC /* MZAudioRecorderConstants.h */,
+				218509F81E4A762800F178D0 /* MZAudioRecorderConstants.m */,
+				2119E0131E049D3B006536CC /* MZAudioPower.h */,
+				2119E0141E049D3B006536CC /* MZAudioPower.mm */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		219917651DFD8AD30010CEEB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				210335CF1E05FCDA0035D9D1 /* MZId.h */,
+				210335D01E05FCDA0035D9D1 /* MZId.m */,
+				2119E0071E049D2C006536CC /* MZPair.h */,
+				2119E0081E049D2C006536CC /* MZPair.m */,
+				2119E0091E049D2C006536CC /* NSArray+Dictionary.h */,
+				2119E00A1E049D2C006536CC /* NSArray+Dictionary.m */,
+				210335F31E0ABD900035D9D1 /* NSDictionary+ElapsedTime.h */,
+				210335F41E0ABD900035D9D1 /* NSDictionary+ElapsedTime.m */,
+				2119E00B1E049D2C006536CC /* UIView+Layout.h */,
+				2119E00C1E049D2C006536CC /* UIView+Layout.m */,
+				2174EDC51E473331009D6F37 /* AVAsset+Range.h */,
+				2174EDC61E473331009D6F37 /* AVAsset+Range.m */,
+				2174EDC11E452F98009D6F37 /* UIRangeSelector.h */,
+				2174EDC21E452F98009D6F37 /* UIRangeSelector.m */,
+				2174EDBD1E452C48009D6F37 /* NSDoubleRange.h */,
+				219EA61C1E63102D00945B87 /* SCWaveformView+Reset.h */,
+				219EA61D1E63102D00945B87 /* SCWaveformView+Reset.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		219917661DFD8ADF0010CEEB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2119DFFD1E049CF2006536CC /* MZViewButton.h */,
+				2119DFFE1E049CF2006536CC /* MZViewButton.m */,
+				217693D31E4E885C00AD1768 /* MZViewButtonLayers.h */,
+				217693D41E4E885C00AD1768 /* MZViewButtonLayers.m */,
+				2119DFFB1E049CF2006536CC /* MZCircularMeterLayer.h */,
+				2119DFFC1E049CF2006536CC /* MZCircularMeterLayer.m */,
+				210335CB1E05D7D70035D9D1 /* MZWaveformView.h */,
+				210335CC1E05D7D70035D9D1 /* MZWaveformView.m */,
+				210335EF1E0ABB610035D9D1 /* MZTimeLabel.h */,
+				210335F01E0ABB610035D9D1 /* MZTimeLabel.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		283D2842318C9878634B540B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7CBB3712C53FBCF66F98C94 /* Pods-MZAudioRecorderViewController.debug.xcconfig */,
+				4DC5A4D18D9D53C6EE30630F /* Pods-MZAudioRecorderViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CCDFDB15C32A10D70E459C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				218509FE1E4BA1B300F178D0 /* MZControlTimer */,
+				2174EDB01E452625009D6F37 /* SCWaveformView */,
+				214E10FF1DFDDABC006F35EF /* QuartzCore.framework */,
+				219917871DFD8BCE0010CEEB /* AVFoundation.framework */,
+				219917851DFD8BA30010CEEB /* Foundation.framework */,
+				219917831DFD8B950010CEEB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		219917891DFD8BF10010CEEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218509EE1E4A75D300F178D0 /* AVURLAssetTemp.h in Headers */,
+				217693CE1E4E3EF900AD1768 /* MeterTable.h in Headers */,
+				218509EA1E4A75D300F178D0 /* AVURLAsset+Clear.h in Headers */,
+				218509EC1E4A75D300F178D0 /* AVURLAsset+Data.h in Headers */,
+				2174EDBF1E452C48009D6F37 /* NSDoubleRange.h in Headers */,
+				2174EDC31E452F98009D6F37 /* UIRangeSelector.h in Headers */,
+				219EA61E1E63102D00945B87 /* SCWaveformView+Reset.h in Headers */,
+				2174EDB81E452632009D6F37 /* SCWaveformView.h in Headers */,
+				2119DFEE1E049CBC006536CC /* Interface.h in Headers */,
+				2119E01A1E049D3B006536CC /* MZAudioRecorderConstants.h in Headers */,
+				2119DFF21E049CD0006536CC /* MZAudioRecorderViewController.h in Headers */,
+				2119DFF41E049CD0006536CC /* MZAudioRecorderViewControllerProtocol.h in Headers */,
+				2119DFF81E049CE1006536CC /* MZAudioRecorderController.h in Headers */,
+				210335D11E05FCDA0035D9D1 /* MZId.h in Headers */,
+				218509F41E4A75F000F178D0 /* NSDictionary+AVAudio.h in Headers */,
+				218509E31E4A74A000F178D0 /* MZAudioRecorderHandlerProtocol.h in Headers */,
+				2119DFFA1E049CE1006536CC /* MZAudioRecorderControllerProtocol.h in Headers */,
+				2119E0181E049D3B006536CC /* MZAudioPower.h in Headers */,
+				218509F61E4A75F000F178D0 /* NSDictionary+AVFormat.h in Headers */,
+				210335CD1E05D7D70035D9D1 /* MZWaveformView.h in Headers */,
+				218509E11E4A74A000F178D0 /* MZAudioRecorderHandler.h in Headers */,
+				21850A051E4BA20800F178D0 /* MZControlTimerProtocol.h in Headers */,
+				2174EDB91E452632009D6F37 /* SCScrollableWaveformView.h in Headers */,
+				2174EDBB1E452632009D6F37 /* SCWaveformCache.h in Headers */,
+				217693D51E4E885C00AD1768 /* MZViewButtonLayers.h in Headers */,
+				2119E00D1E049D2C006536CC /* MZPair.h in Headers */,
+				2119E0051E049D04006536CC /* MZAudioRecorderView.h in Headers */,
+				2119E0011E049CF2006536CC /* MZViewButton.h in Headers */,
+				217693C01E4DE70300AD1768 /* AVAudioObject.h in Headers */,
+				2119DFFF1E049CF2006536CC /* MZCircularMeterLayer.h in Headers */,
+				218509E01E4A74A000F178D0 /* MZAudioRecorderController_p.h in Headers */,
+				21850A011E4BA1E200F178D0 /* MZControlTimer.h in Headers */,
+				217693C41E4DE82900AD1768 /* AVAsset+NumberOfChannels.h in Headers */,
+				218509FC1E4A79D200F178D0 /* AVAudioProtocol.h in Headers */,
+				2119E0111E049D2C006536CC /* UIView+Layout.h in Headers */,
+				2119E00F1E049D2C006536CC /* NSArray+Dictionary.h in Headers */,
+				210335F11E0ABB610035D9D1 /* MZTimeLabel.h in Headers */,
+				2174EDC71E473331009D6F37 /* AVAsset+Range.h in Headers */,
+				210335F51E0ABD900035D9D1 /* NSDictionary+ElapsedTime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		213548D31DFD880900A931FC /* MZAudioRecorderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213548DD1DFD880900A931FC /* Build configuration list for PBXNativeTarget "MZAudioRecorderViewController" */;
+			buildPhases = (
+				FBD3272FC4593169EC02E890 /* 📦 Check Pods Manifest.lock */,
+				213548D01DFD880900A931FC /* Sources */,
+				213548D11DFD880900A931FC /* Frameworks */,
+				213548D21DFD880900A931FC /* CopyFiles */,
+				D34EC3F34D6EFA3BDBC383AB /* 📦 Copy Pods Resources */,
+				219917891DFD8BF10010CEEB /* Headers */,
+				219917971DFD8EAF0010CEEB /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZAudioRecorderViewController;
+			productName = MZAudioRecorderViewController;
+			productReference = 213548D41DFD880900A931FC /* libMZAudioRecorderViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		213548CC1DFD880900A931FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mészáros Zoltán";
+				TargetAttributes = {
+					213548D31DFD880900A931FC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R96VZHJ56V;
+						ProvisioningStyle = Automatic;
+					};
+					219917981DFD8F400010CEEB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R96VZHJ56V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 213548CF1DFD880900A931FC /* Build configuration list for PBXProject "MZAudioRecorderViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 213548CB1DFD880900A931FC;
+			productRefGroup = 213548D51DFD880900A931FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				213548D31DFD880900A931FC /* MZAudioRecorderViewController */,
+				219917981DFD8F400010CEEB /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		219917971DFD8EAF0010CEEB /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		2199179E1DFD8F510010CEEB /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${DEFAULT_DOCUMENTS}/Xcode/Frameworks/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+		D34EC3F34D6EFA3BDBC383AB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZAudioRecorderViewController/Pods-MZAudioRecorderViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD3272FC4593169EC02E890 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		213548D01DFD880900A931FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210335D21E05FCDA0035D9D1 /* MZId.m in Sources */,
+				2174EDC81E473331009D6F37 /* AVAsset+Range.m in Sources */,
+				210335CE1E05D7D70035D9D1 /* MZWaveformView.m in Sources */,
+				218509ED1E4A75D300F178D0 /* AVURLAsset+Data.m in Sources */,
+				218509F51E4A75F000F178D0 /* NSDictionary+AVAudio.m in Sources */,
+				2119DFF31E049CD0006536CC /* MZAudioRecorderViewController.m in Sources */,
+				218509EF1E4A75D300F178D0 /* AVURLAssetTemp.m in Sources */,
+				2174EDB71E452632009D6F37 /* SCWaveformView.m in Sources */,
+				2119DFF91E049CE1006536CC /* MZAudioRecorderController.m in Sources */,
+				2119E0001E049CF2006536CC /* MZCircularMeterLayer.m in Sources */,
+				2174EDBC1E452632009D6F37 /* SCWaveformCache.m in Sources */,
+				2119E0101E049D2C006536CC /* NSArray+Dictionary.m in Sources */,
+				210335F21E0ABB610035D9D1 /* MZTimeLabel.m in Sources */,
+				218509F71E4A75F000F178D0 /* NSDictionary+AVFormat.m in Sources */,
+				2174EDC41E452F98009D6F37 /* UIRangeSelector.m in Sources */,
+				218509EB1E4A75D300F178D0 /* AVURLAsset+Clear.m in Sources */,
+				210335F61E0ABD900035D9D1 /* NSDictionary+ElapsedTime.m in Sources */,
+				2119E0121E049D2C006536CC /* UIView+Layout.m in Sources */,
+				2119E0191E049D3B006536CC /* MZAudioPower.mm in Sources */,
+				21850A021E4BA1E200F178D0 /* MZControlTimer.m in Sources */,
+				2119E0021E049CF2006536CC /* MZViewButton.m in Sources */,
+				2119E00E1E049D2C006536CC /* MZPair.m in Sources */,
+				2174EDBA1E452632009D6F37 /* SCScrollableWaveformView.m in Sources */,
+				219EA61F1E63102D00945B87 /* SCWaveformView+Reset.m in Sources */,
+				217693C11E4DE70300AD1768 /* AVAudioObject.m in Sources */,
+				217693C51E4DE82900AD1768 /* AVAsset+NumberOfChannels.m in Sources */,
+				217693D61E4E885C00AD1768 /* MZViewButtonLayers.m in Sources */,
+				217693CD1E4E3EF900AD1768 /* MeterTable.cpp in Sources */,
+				218509F91E4A762800F178D0 /* MZAudioRecorderConstants.m in Sources */,
+				218509E21E4A74A000F178D0 /* MZAudioRecorderHandler.m in Sources */,
+				2119E0061E049D04006536CC /* MZAudioRecorderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2199179D1DFD8F490010CEEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 213548D31DFD880900A931FC /* MZAudioRecorderViewController */;
+			targetProxy = 2199179C1DFD8F490010CEEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		213548DB1DFD880900A931FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		213548DC1DFD880900A931FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		213548DE1DFD880900A931FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CBB3712C53FBCF66F98C94 /* Pods-MZAudioRecorderViewController.debug.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = R96VZHJ56V;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PureLayout\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SCWaveformView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+					"-fembed-bitcode",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		213548DF1DFD880900A931FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC5A4D18D9D53C6EE30630F /* Pods-MZAudioRecorderViewController.release.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = R96VZHJ56V;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PureLayout\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SCWaveformView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+					"-fembed-bitcode",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		2199179A1DFD8F400010CEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R96VZHJ56V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2199179B1DFD8F400010CEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R96VZHJ56V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		213548CF1DFD880900A931FC /* Build configuration list for PBXProject "MZAudioRecorderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213548DB1DFD880900A931FC /* Debug */,
+				213548DC1DFD880900A931FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213548DD1DFD880900A931FC /* Build configuration list for PBXNativeTarget "MZAudioRecorderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213548DE1DFD880900A931FC /* Debug */,
+				213548DF1DFD880900A931FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219917991DFD8F400010CEEB /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2199179A1DFD8F400010CEEB /* Debug */,
+				2199179B1DFD8F400010CEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 213548CC1DFD880900A931FC /* Project object */;
+}
